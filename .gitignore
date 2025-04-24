@@ -14,3 +14,5 @@ make_mini_data.ipynb
 *.zip
 .ipynb_checkpoints/make_mini_data-Copy1-checkpoint.ipynb
 apple_10k_data/sec-edgar-filings/0000320193/10-K/0000320193-19-000119/primary-document.html
+applemini_10k_data_1yr/sec-edgar-filings/.DS_Store
+applemini_10k_data_20yrs/sec-edgar-filings/0000320193/.DS_Store
