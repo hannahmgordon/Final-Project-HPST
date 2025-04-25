@@ -9,4 +9,10 @@ MasterIndex_Aggregate_10X_1993-2024.txt
 10-X_C_Zip-20250417T162157Z-003.zip
 10-X_C_Zip-20250417T162157Z-004.zip
 /utils
-Loughran-McDonald_10X_Summaries_1993-2024.csv
+make_mini_data.ipynb
+make_mini_data.ipynb
+*.zip
+.ipynb_checkpoints/make_mini_data-Copy1-checkpoint.ipynb
+apple_10k_data/sec-edgar-filings/0000320193/10-K/0000320193-19-000119/primary-document.html
+applemini_10k_data_1yr/sec-edgar-filings/.DS_Store
+applemini_10k_data_20yrs/sec-edgar-filings/0000320193/.DS_Store
