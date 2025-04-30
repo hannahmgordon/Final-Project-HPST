@@ -22,4 +22,8 @@ To empirically investigate this theory, this repo is designed to contain code th
     - Alternatively, one can also use the Loughran-McDonald 10-K Document Dictionaries file. This 15.8GB (unzipped) text file contains pre-calculated word counts for each word in the LM dictionary for every 10-K filing in the dataset. This was the quickest option, and we decided to use it. 
 
 
-- Now that the data is prepared, for the actual textual analysis, we determined it would be best to utilise the cosine similarity to measure the changes in the texts. 
+- Now that the data is prepared, for the actual textual analysis, we determined it would be best to utilise the cosine similarity to measure the changes in the texts.
+
+- Our code extracts word counts from the 10-K dictionary for each S&P 500 firm. These counts are converted into numerical vectors, with each dimension representing a word's frequency.
+
+- Cosine similarity is calculated to compare word count vectors between consecutive years.Cosine distance (1 - cosine similarity) quantifies the year-over-year change in textual content.
