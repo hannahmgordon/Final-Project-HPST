@@ -1,7 +1,7 @@
 
 ## Purpose
 
-Visit our website, which showcases: 
+Check out our [website](https://hannahmgordon-fronttoback-codewebsite-6jii0p.streamlit.app/) to explore our team's work!
 
 10-K filings  are rich sources of data about a firm's financial health, strategy, and risk factors. However, due to their length and complexity, investors may not fully process all the nuanced information they contain. The "Lazy Prices" paper, which this code closely aligns with, posits that changes in the language used in these filings can signal important shifts in a company's prospects. 
 
@@ -34,4 +34,8 @@ Our final data set contains the following attributes (columns):
 
 | Symbol      | CIK | Filing Date | Filing Year  | Cosine Distance | Cosine Similarity | Return Measures | Bin |
 
+<<<<<<< HEAD
 The team has created some graphs and visuals in the Visualization.ipynb file to gather some interesting findings from the work. 
+=======
+The team has crated some graphs and visuals in the Visualization.ipynb file to gather some interesting findings from the work. 
+>>>>>>> 685eb5c3f3c364ae4a702df670c81bbcbee11a8c
