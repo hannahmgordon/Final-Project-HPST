@@ -1,19 +1,21 @@
 
 ## Purpose
 
-Check out our [website](https://hannahmgordon-fronttoback-codewebsite-6jii0p.streamlit.app/) to explore our team's work!
-The data cleaning and text analysis related tasks are performed in the TextualAnalysis.ipynb .
-The team has created some graphs and visuals in the Visualization.ipynb file to gather some interesting findings from the work.
+#### Check out our [website](https://hannahmgordon-fronttoback-codewebsite-6jii0p.streamlit.app/) to explore our team's work!
+
+#### The data cleaning and text analysis related tasks are performed in the TextualAnalysis.ipynb .
+
+#### The team has created some graphs and visuals in the Visualization.ipynb file to gather some interesting findings from the work.
 
 10-K filings  are rich sources of data about a firm's financial health, strategy, and risk factors. However, due to their length and complexity, investors may not fully process all the nuanced information they contain. The "Lazy Prices" paper, which this code closely aligns with, posits that changes in the language used in these filings can signal important shifts in a company's prospects. 
 
 "Changes to the language and construction of financial reports also have strong implications for firms’ future returns: a portfolio that shorts “changers” and buys “non-changers” earns up to 188 basis points in monthly alphas (over 22% per year) in the future." 
 
-The authors demonstrate that these textual changes have predictive power for future stock returns, suggesting that the market underreacts to this information initially.
+The authors demonstrate that these textual changes have predictive power for future stock returns, suggesting that the market underreacts to this information initially. Hence, the term "Lazy Prices".
 
 To empirically investigate this theory, this repo is designed to contain code that performs textual analysis tasks on the 10-K files from 1993 to 2024 for the S&P 500 firms.
 
-These tasks are performed within the file named TextualAnalysis.ipynb : 
+#### These tasks are performed within the file named TextualAnalysis.ipynb : 
 
 - Data Acquisition and Loading: The first step is to gather all the 10-K filings to analyse. There's three ways to go about this:
 
@@ -32,11 +34,11 @@ These tasks are performed within the file named TextualAnalysis.ipynb :
 
 - The data was sorted into five bins each year based on Cosine Similarity, ranking firms from those with the least change in their 10-K filings (Bin 1) to those with the most change (Bin 5).
 
-Our final data set contains the following attributes (columns):
+#### Our final data set contains the following attributes (columns):
 
 | Symbol      | CIK | Filing Date | Filing Year  | Cosine Distance | Cosine Similarity | Return Measures | Bin |
 
-Findings:
+#### Findings:
 
 - High similarity bins outperforming all other bins: The analysis indicates that portfolios composed of firms with high 10-K filing similarity (Bin 5) demonstrated the strongest performance over the long term. This suggests that companies with consistent disclosures, ie going long on "non-changers", tend to provide better returns.
 
@@ -44,13 +46,13 @@ Findings:
 
 - The correlation matrix revealed that there isn't a straightforward linear relationship between cosine similarity and short-term returns. This implies that the impact of textual similarity on stock performance might depend on other factors specific to the firm.   
 
-Conclusions:
+#### Conclusions:
 
-Our version of re-replicating the original paper generally supports the idea that textual similarity in 10-K filings has predictive power for future stock returns.   
+- Our version of re-replicating the original paper generally supports the idea that textual similarity in 10-K filings has predictive power for future stock returns.   
 
-Our original hypothesis that similar disclosures are associated with stronger long-term stock performance. Significant changes or novelty in financial disclosures might signal increased risk or uncertainty, potentially leading to weaker or more inconsistent returns.   
+- Our original hypothesis that similar disclosures are associated with stronger long-term stock performance. Significant changes or novelty in financial disclosures might signal increased risk or uncertainty, potentially leading to weaker or more inconsistent returns.   
 
-Takeaways:
+#### Takeaways:
 
 Investors may benefit from paying attention to the consistency of language in 10-K filings, as it can provide insights into a firm's future prospects.
 
