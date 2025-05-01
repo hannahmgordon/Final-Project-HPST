@@ -1,3 +1,9 @@
+numpy
+pandas 
+seaborn
 streamlit
-pandas
 matplotlib
+pandas-datareader
+spyder
+yfinance
+plotly
