@@ -34,4 +34,4 @@ Our final data set contains the following attributes (columns):
 
 | Symbol      | CIK | Filing Date | Filing Year  | Cosine Distance | Cosine Similarity | Return Measures | Bin |
 
-The team has crated some graphs and visuals in the Visualization.ipynb file to gather some interesting findings from the work. 
+The team has created some graphs and visuals in the Visualization.ipynb file to gather some interesting findings from the work. 
